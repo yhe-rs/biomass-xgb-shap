@@ -698,7 +698,7 @@ if __name__ == "__main__":
     )
     # optimization
     from functools import partial
-    study.optimize(partial(objective, save_dir=directory), n_trials=2)
+    study.optimize(partial(objective, save_dir=directory), n_trials=2000)
     
     #end_time
     endtime = datetime.now()
