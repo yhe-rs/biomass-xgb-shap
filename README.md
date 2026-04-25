@@ -20,15 +20,17 @@ A critical assessment of training data reliability, comparing:
 * **Field Inventory Benchmarks:** Validating model performance against ground-truth measurements to quantify bias and precision in satellite-based estimates.
 
 #### 3. Model Robustness Across Environmental Gradients
-To ensure global applicability, the framework assesses model stability across complex variables:
+To ensure global applicability, the framework assesses model stability across complex variables: compared our biomass map with two widely used global above-ground biomass products: (1) ESA-CCI-BIOMASS Version 6 (100  m resolution; Santoro and Cartus, 2025), and (2) GEDI L4B Gridded AGB Density Version 2.1 (1  km resolution; Dubayah et al., 2023). 
 * **Topographic Complexity:** Analyzing performance variations across diverse **Elevation** ranges and **Slope** steepness.
 * **Forest Structure:** Evaluating estimation error across a spectrum of **Forest Densities** and land-cover types to identify model sensitivity limits.
 
 ---
 
 ### 🚀 Technical Implementation
-* **Modeling Architectures:** Implementation includes Gradient Boosting (**XGBoost**), Recurrent Neural Networks (**GRU/LSTM**), and **Attention-based** Transformer models.
-* **Processing Framework:** Scalable data engineering utilizing **Google Earth Engine (GEE)** for imagery retrieval and **PyTorch** for deep learning training.
+* **Modeling Architectures:** Implementation Gradient Boosting (**XGBoost**).
+* **Processing Framework:** Scalable data engineering utilizing **Google Earth Engine (GEE)** for imagery retrieval.
+* **Feature Engineering:** Feature selection techniques (i.e., BORUTA and SHAP).
+* **Optimization:** Bayesian optimization.
 * **Error Propagation:** Includes a sequential Monte Carlo framework for rigorous uncertainty analysis.
 
 ---
