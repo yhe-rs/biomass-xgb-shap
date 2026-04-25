@@ -37,5 +37,5 @@ To ensure global applicability, the framework assesses model stability across co
 
 ### 📝 Citation
 If you use this code or our findings in your research, please cite:
-> *Wang et al. (2026). Forest Aboveground Biomass Estimation through Integration of Sentinel-2 and PALSAR-2 Time Series. ISPRS Journal of Photogrammetry and Remote Sensing.*
+> *He, Y., Shu, S., Holm, J., Needham, J., Negron-Juarez, R., Koven, C., Zhu, Q. and Falco, N., 2026. Forest aboveground biomass estimation through integration of sentinel-2 and PALSAR-2 time series: assessing models trained on GEDI and field inventory benchmarks. ISPRS Journal of Photogrammetry and Remote Sensing, 236, pp.668-689.*
 <img width="1024" height="1536" alt="agb" src="https://github.com/user-attachments/assets/8e3db1c4-edab-48dc-bf38-701ba511dcba" />
