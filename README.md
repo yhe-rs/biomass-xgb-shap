@@ -22,7 +22,7 @@ A critical assessment of training data reliability, comparing:
 #### 3. Model Robustness Across Environmental Gradients
 To ensure global applicability, the framework assesses model stability across complex variables: compared our biomass map with two widely used global above-ground biomass products: (1) ESA-CCI-BIOMASS Version 6 (100  m resolution; Santoro and Cartus, 2025), and (2) GEDI L4B Gridded AGB Density Version 2.1 (1  km resolution; Dubayah et al., 2023). 
 * **Topographic Complexity:** Analyzing performance variations across diverse **Elevation** ranges and **Slope** steepness.
-* **Forest Structure:** Evaluating estimation error across a spectrum of **Forest Densities** and land-cover types to identify model sensitivity limits.
+* **Forest Structure:** Evaluating estimation error across a spectrum of **Forest Densities** to identify model sensitivity limits.
 
 ---
 
